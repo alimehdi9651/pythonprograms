@@ -1,7 +1,15 @@
 # 1.
-# str = input("enter your first name : ")
-# print(len(str))
+str = input("enter your first name : ")
+print(len(str))
  
 # 2.
-s = "i am KR$NA"
-print(s.count('$'))
+#  
+
+str = "mansha" 
+wieght = 83
+if wieght >= 50 and wieght <= 70:
+    print(str, "is elegable for mma")
+else:
+    print("not elegable")
+
+
