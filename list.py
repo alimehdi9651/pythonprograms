@@ -28,7 +28,6 @@ alphalist = ['a', 'c', 'e', 'd']
 # .pop() function pops the element at perticular position and remove() fuction directly remove the element
 # list.remove(5)
 # print(list)
-list.pop(2)
-print(list)
+# list.pop(2)
 
 
