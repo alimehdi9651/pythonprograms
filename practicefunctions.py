@@ -19,9 +19,9 @@ def factorial(a):
 # fac = factorial(n)
 # print(fac)
 
-# def inr(a):
-#     amt = 83.39 * a
-#     return amt
+def inr(a):
+    amt = 83.39 * a
+    return amt
 
 # n = float(input("enter amount in $:"))
 # d = inr(n)
