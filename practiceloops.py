@@ -6,10 +6,10 @@
 #     sum += n
 #     n -= 1
 # print(sum)
-n = 4
-fact = 1
-# pritn factorial of a number n
-for i in range(1,n+1):
-    fact = fact * n
 
-print(fact)
+# pritn factorial of a number n
+n = 5
+fact = 1
+for i in range(1,n+1):
+    fact = fact * i
+print("factorial = ", fact)
