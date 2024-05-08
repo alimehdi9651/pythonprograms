@@ -31,8 +31,8 @@ alphalist = ['a', 'c', 'e', 'd']
 # print(list)
 # list.pop(2)
 
-
-list[4]=6
+print(list[0])
+# list[4]=6
+# # print(list)
+# list.append(10)
 # print(list)
-list.append(10)
-print(list)
