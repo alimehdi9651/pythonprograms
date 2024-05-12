@@ -19,7 +19,7 @@
 
 # if any txt file does not exixt in our folder then these mode automically create a file
 
-# f = open("sample.txt", "a")
+f = open("sample.txt", "a")
 
 # "r+" mode read and overwrite(pointer start) -> no truncate
 #  "w+" mode read and overwrite(poinetr start) -> truncate
@@ -30,5 +30,10 @@
 #     print(data)
 # with automatically close the file
     
-with open("text.txt", "w") as f:
-    f.write("hi")
+# with open("text.txt", "w") as f:
+#     f.write("hi")
+import os
+
+os.remove("text.txt")
+
+    
