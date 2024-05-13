@@ -72,6 +72,11 @@ class Student:
     def __init__(self, name, marks):
         self.name = name
         self.marks = marks
+
+# Static method -> method that not use self parameter 
+    @staticmethod  #decorators(that change the behaviour of a function)
+    def hello():
+        print("hello")
     def avg(self):
         sum = 0
         for val in self.marks:
@@ -80,5 +85,5 @@ class Student:
 
 
 s1 = Student("Ali Mehdi", [51,57,54])
-print(s1.avg())
-
+# print(s1.avg())
+s1.hello()
