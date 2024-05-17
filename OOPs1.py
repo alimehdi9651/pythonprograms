@@ -76,15 +76,36 @@ class Car():
     @staticmethod
     def stop():
         print("Car stoped")
+
+# Inheritance are to three types:
+#1 Single level inheritance
+#2 multi level inheritance 
+#3 Multiple inheritance
     
-class ToyotaCars(Car):
+class ToyotaCars(Car):  # this is a example of single inheritance
+
     def __init__(self, name):
         self.name = name
 
     def print_name(self):
         print (self.name)
+class KIA():
+    def __init__(self, type):
+        self.type = type
 
-car1 = ToyotaCars("Fortuner")
-print(car1.name)
-car1.start()
-print(car1.colour)
+class Fortuner(ToyotaCars):# this is the example of multi inheritance.
+
+    def __init__(self, type):
+        self.type = type
+
+car1 = Fortuner("prtrol")
+print(car1.type)
+# car1.start()
+
+class Saltos(Car , KIA): # this is example of multiple inheritance
+    def __init__(self, type):
+        self.type = type
+
+car2 = Saltos("Eletric")
+print(car2.type)
+car2.start()
