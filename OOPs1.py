@@ -69,7 +69,8 @@
 # INHERITANCE -> when one class drives the properties(attributes) and method of another class.
 
 class Car():
-    colour = "black"
+    def __init__(self, type):
+        self.type = type
     @staticmethod
     def start():
         print("car started")
@@ -84,28 +85,33 @@ class Car():
     
 class ToyotaCars(Car):  # this is a example of single inheritance
 
-    def __init__(self, name):
-        self.name = name
+    def __init__(self, name, type):
+        super().__init__(type)
+        self.name= name
 
-    def print_name(self):
-        print (self.name)
-class KIA():
-    def __init__(self, type):
-        self.type = type
+# class KIA():
+#     def __init__(self, name):
+#         self.name = name
 
 class Fortuner(ToyotaCars):# this is the example of multi inheritance.
 
-    def __init__(self, type):
-        self.type = type
-
-car1 = Fortuner("prtrol")
+    def __init__(self, milage, type):
+        super().__init__(type)
+        self.milage = milage
+        super().start()
+car1 = Fortuner(9, "petrol")
 print(car1.type)
-# car1.start()
+car1.start()
+# car1 = Fortuner("prtrol")
+# print(car1.type)
+# # car1.start()
 
-class Saltos(Car , KIA): # this is example of multiple inheritance
-    def __init__(self, type):
-        self.type = type
+# class Saltos(Car , KIA): # this is example of multiple inheritance
+#     def __init__(self, type):
+#         self.type = type
 
-car2 = Saltos("Eletric")
-print(car2.type)
-car2.start()
+# car2 = Saltos("Eletric")
+
+
+
+# super() -> use to access methods of parent class.
