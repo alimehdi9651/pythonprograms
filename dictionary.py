@@ -1,33 +1,33 @@
 # dictionary are mutable ,unordered and do not allow duplicate keys
-info = {
-    "college name" : "AIMT",
-    "name" : "ali",
-    "age" : 22
-}
-# print(info)
+# info = {
+#     "college name" : "AIMT",
+#     "name" : "ali",
+#     "age" : 22
+# }
+# # print(info)
 
-# info["name"] = "Mehdi"
-info["is_adult"] = True
-print(info)
+# # info["name"] = "Mehdi"
+# info["is_adult"] = True
+# print(info)
 # print(info["age"])
 
 # # nested dict
 
-# info1 = {
-#     "name" : "haider",
-#     "subjects" : {
-#         "chem" : 72,
-#         "Phy" : 62,
-#         "bio" : 78,
-#     }
-# }
+info1 = {
+    "name" : "haider",
+    "subjects" : {
+        "chem" : 72,
+        "Phy" : 62,
+        "bio" : 78,
+    }
+}
 
 # print(info1["subjects"]["bio"])
 
 
 # # basic methods in dictionary
 # # .keys()
-# print(list(info1.keys()))
+print(list(info1.keys()))
 
 
 # # .values()

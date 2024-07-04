@@ -111,10 +111,8 @@
 # #         self.type = type
 
 # # car2 = Saltos("Eletric")
-
-
-
 # # super() -> use to access methods of parent class.
+
 
 # class method -> basically this method is use to change class attribute.
 # class Person:
@@ -128,8 +126,6 @@
 # p1.changeName("ali")
 # print(p1.name)
 # print(Person.name)
-
-
 
 
 # when we cannot give a fixed value to an attribute then we have to use "property decorator"
