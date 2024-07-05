@@ -8,7 +8,6 @@
 #     if(ch == 'e'):
 #         print("e is present in the string")
 #         break
-#     print(ch)
 # else:
 #     print("end")
 
@@ -18,13 +17,13 @@
 #     print(el)
 
 
-# tup = (1, 4, 9, 25, 36, 49, 64)
-# x = 49
-# for el in tup:
-#     if(el == x):
-#         print(x, "is present in the list")
-#     else:
-#         print("finding")
+tup = (1, 4, 9, 25, 36, 49, 64)
+x = 49
+for el in tup:
+    if(el == x):
+        print(x, "is present in the list")
+    else:
+        print("finding")
 
 
 # range() this function returns the sequence of number that starts for 0 and 

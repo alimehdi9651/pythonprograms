@@ -13,7 +13,7 @@
 # basic methods in python
 
 # .add()
-# collection = {"ali", "mehdi", "is", "a", "good"}
+collection = {"ali", "mehdi", "is", "a", "good"}
 # collection.add(1)
 # collection.add(2)
 # collection.add(3)
@@ -23,7 +23,7 @@
 # print(collection)
 
 
-# .remove()
+# # .remove()
 
 # collection.remove("hello world")
 # print(collection)

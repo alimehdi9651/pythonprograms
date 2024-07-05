@@ -1,16 +1,16 @@
 # student = ["ali", 6.1, 21, "lucknow"]
 
-# print(type(student))
+# # print(type(student))
 # student[2] = 22
 # print(student)
 
 
-# # basic methods in lists
-# # 1 
+# basic methods in lists
+# 1 
 # student.append(2)
 # print(student)
 list = [5, 2, 1, 4, 3]
-alphalist = ['a', 'c', 'e', 'd']
+# alphalist = ['a', 'c', 'e', 'd']
 # list.sort()
 # print(list)
 # alphalist.sort(reverse=True)
@@ -30,8 +30,8 @@ alphalist = ['a', 'c', 'e', 'd']
 # list.remove(5)
 # print(list)
 # list.pop(2)
-
-print(list[0])
+print(list)
+# print(list[0])
 # list[4]=6
 # # print(list)
 # list.append(10)

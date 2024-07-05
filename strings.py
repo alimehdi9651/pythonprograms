@@ -17,7 +17,7 @@ str = "i am ali"
 # print(str.replace("ali" , "Mehdi"))
 # print(str.replace("a" , "M"))
 
-print(str.find("ali"))
+# print(str.find("ali"))
 
 # print(str.count("z"))
 
