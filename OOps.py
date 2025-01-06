@@ -1,11 +1,11 @@
 # syntax of class
-# class Student:
-#     name = "ali"
-#     age = 12
-#     height = 5.5
+class Student:
+    name = "ali"
+    age = 12
+    height = 5.5
 # syntax of instace or object of a class
-# S1 = Student()
-# print(S1.height)
+S1 = Student()
+print(S1.height)
 
 # Constructor in Object oriented or "__init__() function"
 
@@ -26,7 +26,7 @@
 # print(a1.name,a1.brand)
 
 # car1 = Cars("Saltos", "KIA","001236")
-# # print("Model number of", car1.name , "is" ,car1.model_no)    
+# print("Model number of", car1.name , "is" ,car1.model_no)    
 # print(car1.Categorie)
 
 
@@ -65,8 +65,9 @@
 # sub2 = Student("Chemistry", 56)
 # sub3 = Student("Biology", 51)
 
-# print(sub1.avg())
 
+# print(sub1.avg())
+# print(sub1.name)
 
 class Student:
     def __init__(self, name, marks):
@@ -85,5 +86,5 @@ class Student:
 
 
 s1 = Student("Ali Mehdi", [51,57,54])
-# print(s1.avg())
+print(s1.avg())
 s1.hello()

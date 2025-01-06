@@ -4,12 +4,13 @@
 #     "name" : "ali",
 #     "age" : 22
 # }
-# # print(info)
-
-# # info["name"] = "Mehdi"
-# info["is_adult"] = True
 # print(info)
+
+# info["name"] = "Mehdi"
+# info["is_adult"] = True
+# # print(info)
 # print(info["age"])
+# print(info)
 
 # # nested dict
 
@@ -27,29 +28,29 @@ info1 = {
 
 # # basic methods in dictionary
 # # .keys()
-print(list(info1.keys()))
+# print(list(info1.keys()))
 
 
 # # .values()
 # print(list(info1.values()))
 
 # # .items()
-# pairs = list(info1.items())
-# print(pairs[1])
+pairs = list(info1.items())
+# print(pairs[0])
 
 
 # .get()
-# print(info1["name1"])/ this direct way of retreving data will show error if we accidently 
-# or mistakely pass any key vale whic s not present in the dictionary.
+# print(info1["name1"])#this direct way of retreving data will show error if we accidently 
+# or mistakely pass any key vale which is not present in the dictionary.
 
 
 # better way of extracting data for a dictionary(if name does not presrnt 
-# is the dictionary then .get() will give none (insted of error))
+# in the dictionary then .get() will give none (insted of error))
 # print(info1.get("name1"))
 
 
 
 # .update()
 # info1.update({"name1" : "Ali"})
-# info1["name3"] = "rizvi"
+# info1["name3"] = "rizvi" # direct method
 # print(info1)

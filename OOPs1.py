@@ -27,24 +27,21 @@
 #         self.account_no = acc_no
 
 #     def debit(self,amt):
-#         self.balance -= amt
-#         print("Rs.", amt ,"is debited")
-#         print("total balance = ", self.balance)
-#     def credit(self,amt):
-#         self.balance += amt
-#         print("Rs.", amt, "is credited")
-#         print("total balance =", self.balance)
+    #     self.balance -= amt
+    #     print("Rs.", amt ,"is debited")
+    #     print("total balance = ", self.balance)
+    # def credit(self,amt):
+    #     self.balance += amt
+    #     print("Rs.", amt, "is credited")
+    #     print("total balance =", self.balance)
 
-#     def print_baalance(self):
-#         return self.balance
+    # def print_baalance(self):
+    #     return self.balance
     
 
 # acc1 = Account(10000, 12345)
+# acc1.credit(200)
 # acc1.debit(200)
-
-# acc1.credit(500)
-# acc1.credit(50000)
-# acc1.debit(45000)
 # print("Yout current balance =",acc1.print_baalance())
 
 
@@ -56,13 +53,14 @@
 #     def __init__(self, name, password):
 #         self.name = name
 #         self.__password = password #here __password is a private attribute of student class.
-# #this private attribute only lies in class
+# # #this private attribute only lies in class
 #     def print_pass(self):
 #         print(self.__password)
 # s1 = Student("ali","manali24")
+# # print(s1.name)
 
-# # del s1.name  
-# print(s1)
+# del s1.name  
+# # print(s1)
 # s1.print_pass()
 # print(s1.__password)
 
@@ -89,9 +87,9 @@ class ToyotaCars(Car):  # this is a example of single inheritance
         super().__init__(type)
         self.name= name
 
-# class KIA():
-#     def __init__(self, name):
-        # self.name = name
+class KIA():
+    def __init__(self, name):
+        self.name = name
 
 class Fortuner(ToyotaCars):# this is the example of multi inheritance.
 
@@ -102,15 +100,15 @@ class Fortuner(ToyotaCars):# this is the example of multi inheritance.
 car1 = ToyotaCars(9, "petrol")
 print(car1.type)
 car1.start()
-car1 = Fortuner("prtrol")
-print(car1.type)
+# car1 = Fortuner("prtrol")
+# print(car1.type)
 # car1.start()
 
-# # class Saltos(Car , KIA): # this is example of multiple inheritance
-# #     def __init__(self, type):
-# #         self.type = type
+class Saltos(Car , KIA): # this is example of multiple inheritance
+    def __init__(self, type):
+        self.type = type
 
-# # car2 = Saltos("Eletric")
+car2 = Saltos("Eletric")
 # # super() -> use to access methods of parent class.
 
 
@@ -132,19 +130,19 @@ print(car1.type)
 # propert decorator -> we use property decorator on any method in a class to use to 
 # use the method a property/attribute
 
-class Student:
-    def __init__(self, phy, chem, bio):
-        self.phy = phy
-        self.chem = chem 
-        self.bio = bio
-        # self.percentage = (self.phy + self.chem + self.bio) / 3
-    @property
-    def percentage(self):# here this method precentage works as attribute 
-        return str((self.phy + self.chem + self.bio) / 3) + "%"
-s1 = Student(56, 57, 51)
-s1.phy = 99
-s1.chem = 97
-s1.bio = 98
-print(s1.phy)
-print(s1.percentage)#here percentage value will not reflect hence for
-# this percentage attribute we have to property decorator
+# class Student:
+#     def __init__(self, phy, chem, bio):
+#         self.phy = phy
+#         self.chem = chem 
+#         self.bio = bio
+#         # self.percentage = (self.phy + self.chem + self.bio) / 3
+#     @property
+#     def percentage(self):# here this method precentage works as attribute 
+#         return str((self.phy + self.chem + self.bio) / 3) + "%"
+# s1 = Student(56, 57, 51)
+# s1.phy = 99
+# s1.chem = 97
+# s1.bio = 98
+# print(s1.phy)
+# print(s1.percentage)#here percentage value will not reflect hence for
+# # this percentage attribute we have to property decorator
