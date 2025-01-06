@@ -21,7 +21,8 @@ list = [5, 2, 1, 4, 3]
 
 # list.reverse()
 # print(list)
-# list.insert(1,6)
+# list.insert(1,9)
+# list.append(5)
 # print(list)
 
 
@@ -29,10 +30,11 @@ list = [5, 2, 1, 4, 3]
 #  remove() fuction directly remove the element
 # list.remove(5)
 # print(list)
+# print(list)
 # list.pop(2)
-print(list)
+# print(list)
 # print(list[0])
 # list[4]=6
-# # print(list)
+# print(list)
 # list.append(10)
 # print(list)

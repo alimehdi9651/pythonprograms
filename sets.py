@@ -14,13 +14,13 @@
 
 # .add()
 collection = {"ali", "mehdi", "is", "a", "good"}
-# collection.add(1)
-# collection.add(2)
-# collection.add(3)
-# collection.add(2)
-# collection.add("hello world")
+collection.add(1)
+collection.add(2)
+collection.add(3)
+collection.add(2)
+collection.add("hello world")
 
-# print(collection)
+print(collection)
 
 
 # # .remove()

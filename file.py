@@ -10,11 +10,11 @@
 
 
 # write mode i.e "w"(overwrite) and "a"(append)
-# f = open("text.txt", "w")
+f = open("sample.txt", "w")
 # f.write("hi i am mehdi")
-# f =  open("text.txt", "a")
+# f =  open("sample.txt", "a")
 # f.write("\nand i am ali")
-# f.close()
+f.close()
 
 
 # if any txt file does not exixt in our folder then these mode automically create a file
@@ -31,9 +31,9 @@ f = open("sample.txt", "a")
 # with automatically close the file
     
 # with open("text.txt", "w") as f:
-#     f.write("hi")
-import os
+# #     f.write("hi")
+# import os
 
-os.remove("text.txt")
+# os.remove("text.txt")
 
     

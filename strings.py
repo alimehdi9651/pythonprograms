@@ -5,7 +5,7 @@
 
 # slicing or substring
 str = "i am ali"
-# print(str[0:4])
+# print(str[0:2])
 
 # # String functions
 # print(str.startswith("i am"))

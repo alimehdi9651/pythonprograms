@@ -1,8 +1,10 @@
 # movie = []
 # mov = input("enter first movie :")
 # movie.append(mov)
+# print(mov)
 # mov = input("enter 2nd movie :")
 # movie.append(mov)
+# print(mov)
 # mov = input("enter 3rd movie name :")
 # movie.append(mov)
 # print(movie)
@@ -14,6 +16,7 @@
 
 # list = ['m','a','a','m']
 # temp = list.copy()
+# print(temp)
 # temp.reverse()
 # if(list == temp):
 #     print("Palindrome")
@@ -22,9 +25,13 @@
 
 # count grade
 
-grade = ('c','b','a','a','b','d')
-print(grade.count('a'))
+# grade = ('c','b','a','a','b','d')
+# print(grade.count('a'))
 
-grade1 = ['c','b','a','a','b','d']
-grade1.sort()
-print(grade1)
+# grade1 = ['c','b','a','a','b','d']
+# grade1.sort()
+# print(grade1)
+
+arr = [3,4,5,2,1]
+arr.sort(reverse=True)
+print(arr)

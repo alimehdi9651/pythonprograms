@@ -68,43 +68,43 @@
 
 # INHERITANCE -> when one class drives the properties(attributes) and method of another class.
 
-# class Car():
-#     def __init__(self, type):
-#         self.type = type
-#     @staticmethod
-#     def start():
-#         print("car started")
-#     @staticmethod
-#     def stop():
-#         print("Car stoped")
+class Car():
+    def __init__(self, type):
+        self.type = type
+    @staticmethod
+    def start():
+        print("car started")
+    @staticmethod
+    def stop():
+        print("Car stoped")
 
 # # Inheritance are to three types:
 # #1 Single level inheritance
 # #2 multi level inheritance 
 # #3 Multiple inheritance
     
-# class ToyotaCars(Car):  # this is a example of single inheritance
+class ToyotaCars(Car):  # this is a example of single inheritance
 
-#     def __init__(self, name, type):
-#         super().__init__(type)
-#         self.name= name
+    def __init__(self, name, type):
+        super().__init__(type)
+        self.name= name
 
-# # class KIA():
-# #     def __init__(self, name):
-# #         self.name = name
+# class KIA():
+#     def __init__(self, name):
+        # self.name = name
 
-# class Fortuner(ToyotaCars):# this is the example of multi inheritance.
+class Fortuner(ToyotaCars):# this is the example of multi inheritance.
 
-#     def __init__(self, milage, type):
-#         super().__init__(type)
-#         self.milage = milage
-#         super().start()
-# car1 = ToyotaCars(9, "petrol")
-# print(car1.type)
+    def __init__(self, milage, type):
+        super().__init__(type)
+        self.milage = milage
+        super().start()
+car1 = ToyotaCars(9, "petrol")
+print(car1.type)
+car1.start()
+car1 = Fortuner("prtrol")
+print(car1.type)
 # car1.start()
-# # car1 = Fortuner("prtrol")
-# # print(car1.type)
-# # # car1.start()
 
 # # class Saltos(Car , KIA): # this is example of multiple inheritance
 # #     def __init__(self, type):
