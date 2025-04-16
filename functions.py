@@ -1,7 +1,8 @@
 # # function defination
 # def calc_sum(a, b):
 #     sum = a+b
-#     print(sum)
+#     # print(sum)
+#     return sum
 
 
 # # function call
@@ -13,8 +14,8 @@
 
 # a = int(input("give first value :"))
 # b = int(input("give second value :"))
-# sum = cal_sum(a, b)#function call (Arguments)
-# print("sum = ",sum)
+# sum = calc_sum(a, b)#function call (Arguments)
+# print("sum = ", sum,)
 
 
 # average of three numbers
@@ -30,12 +31,12 @@
 
 #Function that returns the maximun value among two numbers
 
-def max(a, b):
-    if(a > b ):
-        return a
-    else:
-        return b
+# def max(a, b):
+#     if(a > b ):
+#         return a
+#     else:
+#         return b
     
-a = 5
-b = 1
-print(max(a, b))
+# a = 5
+# b = 1
+# print(max(a, b))
