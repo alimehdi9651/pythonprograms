@@ -21,7 +21,7 @@ data = {
 }
 
 df1 = pd.DataFrame(data)
-# print(df1.info())
+print(df1.info())
 
 
 #4. describe(): The describe() function in pandas provides a quick statistical summary
@@ -33,7 +33,7 @@ data2 = {
     "Performance": [88, 95, 76, 98, 85, 82, 74, 91, 79, 80]
 }
 df2 = pd.DataFrame(data2)
-# print(df2.describe())
+print(df2.describe())
 print(df2)
 #shape:its is an attribute that Return a tuple representing the dimensionality i.e (rows, columns)of the DataFrame. 
 print(df2.shape)
