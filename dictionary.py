@@ -23,12 +23,12 @@ info1 = {
     }
 }
 
-# print(info1["subjects"]["bio"])
+print(info1["subjects"]["bio"])
 
 
 # # basic methods in dictionary
 # # .keys()
-# print(list(info1.keys()))
+print(list(info1.keys()))
 
 
 # # .values()
@@ -36,7 +36,7 @@ info1 = {
 
 # # .items()
 pairs = list(info1.items())
-# print(pairs[0])
+print(pairs[0])
 
 
 # .get()
@@ -46,7 +46,7 @@ pairs = list(info1.items())
 
 # better way of extracting data for a dictionary(if name does not presrnt 
 # in the dictionary then .get() will give none (insted of error))
-# print(info1.get("name1"))
+print(info1.get("name1"))
 
 
 
